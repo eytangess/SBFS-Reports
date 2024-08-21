@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>hc_operating_budget_data</DataSourceReference>
+      <CommandText>SELECT PK_FundingStatusID AS FundingStatusID, FundingStatus
+FROM     vSBFS_Data_Position_FundingStatus</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="FundingStatusID">
+        <DataField>FundingStatusID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="FundingStatus">
+        <DataField>FundingStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

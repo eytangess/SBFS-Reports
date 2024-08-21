@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PositionControl">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=hwdsql01;Initial Catalog=FMLA</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>67519f50-ffa3-42db-ac30-f873845673c3</DataSourceID>
+</RptDataSource>
